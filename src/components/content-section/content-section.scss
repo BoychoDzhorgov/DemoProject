@@ -1,0 +1,27 @@
+.content-section {
+    text-align: center;
+    background-color: #8b3e36;
+    margin: 0 auto;
+    padding-bottom: 30px;
+
+    &__title {
+        font-size: 60px;
+        color: white;
+        padding: 45px 0;
+        margin: 0;
+    }
+
+    &__grid-wrapper {
+        display: flex;
+        justify-content: center;
+        
+        &__grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 10px;
+            padding: 10px;
+            margin: 0 auto;
+            background-color: #f04e45;
+        }
+    }
+}

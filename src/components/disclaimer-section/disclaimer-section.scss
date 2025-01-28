@@ -1,0 +1,13 @@
+.disclaimer-section {
+    background-color: red;
+    padding: 10px;
+
+    &__title {
+        font-weight: 600;
+        color: white;
+    }
+
+    &__subtitle {
+        color: white;
+    }
+}

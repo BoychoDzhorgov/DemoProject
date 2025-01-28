@@ -1,0 +1,16 @@
+.header-section {
+    background-color: #ff5d55;
+    display: flex;
+    justify-content: space-between;
+    padding: 5px 60px;
+
+    &__title {
+        font-weight: 600;
+        font-size: 40px;
+        color: white;
+    }
+
+    &__subtitle {
+        color: white;
+    }
+}
