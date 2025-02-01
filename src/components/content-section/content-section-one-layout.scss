@@ -6,7 +6,7 @@
 
   &__title-container {
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
 
     &__title {
       width: 25%;
@@ -15,7 +15,7 @@
       font-size: 60px;
       color: #000000;
       padding: 0px 400px;
-      margin: 0rem 30rem 0rem 0rem;
+      margin: 0rem 0rem 0rem 0rem;
 
       &__decoration {
         color: #4daa07;
@@ -28,6 +28,8 @@
       text-align: left;
       padding: 0px 400px;
       font-size: 26px;
+      font-weight: 600;
+      font-style: italic;
       color: #d40003;
     }
   }
@@ -49,24 +51,72 @@
       }
     }
   }
+  &__product-image {
+    &__sale {
+      width: 10rem;
+      color: #fff;
+      -webkit-transform: rotate(-30deg);
+      transform: rotate(-30deg);
+      font: 700 14px/24px "PT Sans Narrow", sans-serif;
+      background: url("../../static/images/sale.png") left top no-repeat;
+      position: absolute;
+      left: 70rem;
+      top: 0;
+      height: 10rem;
+      margin: 150px 50px;
 
+      &__text {
+        font-size: 22px;
+        width: 6rem;
+        padding: 10px 10px;
+        text-align: center;
+      }
+      z-index: 2;
+    }
+
+    &__product {
+      position: absolute;
+      top: 0;
+      height: 30rem;
+      width: 100em;
+      left: 70rem;
+      background: url("../../static/images/prod.png") left top no-repeat;
+      margin: 220px 50px;
+      z-index: 1;
+    }
+
+    &__leaf {
+      position: absolute;
+      top: 0;
+      height: 30rem;
+      width: 100rem;
+      left: 70rem;
+      background: url("../../static/images/leave.png") left top no-repeat;
+      margin: 320px 265px;
+    }
+  }
   &__order {
     text-align: center;
     padding: 0px 500px;
-    margin: 26rem 0rem 0rem 30rem;
+    margin: 26rem 0rem 0rem 28rem;
     position: absolute;
-    top:0;
+    top: 0;
 
     &__old-price {
       width: 30%;
+      padding: 0px 40px;
+      font-size: 20px;
+      font-weight: 600;
       text-decoration: line-through;
       color: #353535;
     }
 
     &__new-price {
       color: #d51015;
+      width: 80%;
       font-size: 30px;
       font-weight: 700;
+      font-style: italic;
     }
 
     &__btn {

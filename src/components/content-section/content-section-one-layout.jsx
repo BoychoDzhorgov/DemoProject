@@ -11,13 +11,20 @@ export default function ContentSectionOneLayout() {
                 <div className="content-section-one-layout__grid-wrapper__grid">
                         <p className="content-section-one-layout__grid-wrapper__grid__tick"><span className="content-section-one-layout__grid-wrapper__grid__description">Освобождава</span> от видимите сиптоми на варикоза</p>
                         <p className="content-section-one-layout__grid-wrapper__grid__tick"><span className="content-section-one-layout__grid-wrapper__grid__description">Предотвратява</span> прогресирането на варикозата</p>
-                        <p className="content-section-one-layout__grid-wrapper__grid__tick"><span className="content-section-one-layout__grid-wrapper__grid__description">Премахва</span> болката и тежестта в краата</p>
+                        <p className="content-section-one-layout__grid-wrapper__grid__tick"><span className="content-section-one-layout__grid-wrapper__grid__description">Премахва</span> болката и тежестта в краката</p>
                         <p className="content-section-one-layout__grid-wrapper__grid__tick"> Съдържа <span className="content-section-one-layout__grid-wrapper__grid__description">безопасни</span> и натурални съставки</p>
                 </div>
             </div> 
+            <div className="content-section-one-layout__product-image">
+                <div className="content-section-one-layout__product-image__sale">
+                    <p className="content-section-one-layout__product-image__sale__text">50% Отстъпка</p>
+                </div>
+                <div className="content-section-one-layout__product-image__product"></div>
+                <div className="content-section-one-layout__product-image__leaf"></div>
+            </div>
             <div className="content-section-one-layout__order">
                         <p className="content-section-one-layout__order__old-price">Стара цена: 150лв</p>
-                        <p className="content-section-one-layout__order__new-price">Нова Цена:75лв</p>
+                        <p className="content-section-one-layout__order__new-price">Нова Цена: 75лв</p>
                         <button className="content-section-one-layout__order__btn">Поръчай</button>
                 </div>
         </div>
